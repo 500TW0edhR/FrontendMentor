@@ -1,0 +1,87 @@
+@media(min-width: 600px) and (max-width: 959px){
+
+    * {
+        font-family: "Kumbh sans";
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+
+    .background{
+
+        width: 959px;
+        height: 100vh;
+
+        position: relative;
+        background-color: hsl(185, 75%, 39%);
+        background-repeat: no-repeat;
+        background-size: contain;
+    
+        .top {
+            position: absolute;
+            top: -60%;
+            left: -45%;
+        }
+    
+        .bottom {
+            position: absolute;
+            right: -60%;
+            bottom: -60%;
+        }
+    }
+
+    .foreground {
+        width: 350px;
+        background-color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 10%;
+        position: relative;
+    
+        
+        position: absolute;
+        left: 41%;
+        top: 30vh;
+
+        
+        span {
+            font-weight: 400;
+            color: hsl(0, 0%, 59%);
+        }
+    
+        .shelf {
+            border-radius: 35px 35px 0 0;
+        }
+    
+        .photo {
+            border-radius: 50%;
+            border: solid 5px #fff;
+            position: absolute;
+            top: 25%;
+            left: 35%;
+        }
+    
+        .profile {  
+            padding-top: 60px;
+            padding-bottom: 40px;
+            text-align: center;
+            color: hsl(229, 23%, 23%);
+        }
+    
+        .numbers {
+            display: flex;
+            
+            p {
+                width: calc(100% / 3);
+                text-align: center;
+                padding-bottom: 20px;
+                color: hsl(229, 23%, 23%);
+            }
+        }
+    }
+
+    .attribution { font-size: 11px; text-align: center;}
+    .attribution a { color: hsl(228, 45%, 44%);}
+}
